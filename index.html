@@ -1,0 +1,95 @@
+
+<HTML>
+<HEAD>
+<TITLE>index</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (index.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		home_over = newImage("images/home-over.jpg");
+		about_us_over = newImage("images/about-us-over.jpg");
+		services_over = newImage("images/services-over.jpg");
+		contact_us_over = newImage("images/contact-us-over.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+<style type="text/css">
+<!--
+body {
+	background-color: #CFCFCF;
+}
+-->
+</style></HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 ONLOAD="preloadImages();">
+<!-- ImageReady Slices (index.psd) -->
+<TABLE WIDTH=985 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="images/index_01.jpg" WIDTH=985 HEIGHT=128 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/index_02.jpg" WIDTH=510 HEIGHT=43 ALT=""></TD>
+		<TD>
+			<A HREF="index.html"
+				ONMOUSEOVER="changeImages('home', 'images/home-over.jpg'); return true;"
+				ONMOUSEOUT="changeImages('home', 'images/home.jpg'); return true;">
+				<IMG NAME="home" SRC="images/home.jpg" WIDTH=82 HEIGHT=26 BORDER=0 ALT=""></A></TD>
+		<TD>
+			<A HREF="aboutus.html"
+				ONMOUSEOVER="changeImages('about_us', 'images/about-us-over.jpg'); return true;"
+				ONMOUSEOUT="changeImages('about_us', 'images/about-us.jpg'); return true;">
+				<IMG NAME="about_us" SRC="images/about-us.jpg" WIDTH=106 HEIGHT=26 BORDER=0 ALT=""></A></TD>
+		<TD>
+			<A HREF="services.html"
+				ONMOUSEOVER="changeImages('services', 'images/services-over.jpg'); return true;"
+				ONMOUSEOUT="changeImages('services', 'images/services.jpg'); return true;">
+				<IMG NAME="services" SRC="images/services.jpg" WIDTH=104 HEIGHT=26 BORDER=0 ALT=""></A></TD>
+		<TD>
+			<A HREF="contactus.html"
+				ONMOUSEOVER="changeImages('contact_us', 'images/contact-us-over.jpg'); return true;"
+				ONMOUSEOUT="changeImages('contact_us', 'images/contact-us.jpg'); return true;">
+				<IMG NAME="contact_us" SRC="images/contact-us.jpg" WIDTH=118 HEIGHT=26 BORDER=0 ALT=""></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/index_07.jpg" WIDTH=65 HEIGHT=43 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=4>
+			<IMG SRC="images/index_08.jpg" WIDTH=410 HEIGHT=17 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="images/index-front.jpg" WIDTH=985 HEIGHT=500 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=6>
+			<IMG SRC="images/index_10.jpg" WIDTH=985 HEIGHT=39 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
